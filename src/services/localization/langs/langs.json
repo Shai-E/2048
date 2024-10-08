@@ -1,0 +1,30 @@
+{
+  "en": {
+    "translation": {
+      "welcome": "Welcome",
+      "features": "Features",
+      "about": "About",
+      "darkMode": "Dark Mode",
+      "searchPlaceholder": "Search...",
+      "back": "Back",
+      "favorites": "Favorites",
+      "noFavorites": "Your favorite list is empty.",
+      "goToWelcome": "Go to Welcome",
+      "tabs": "tabs",
+      "main": "main",
+      "details": "details",
+      "promptToAction": "Prompt to action",
+      "abstractDescription": "This template provides an excellent foundation for your next project, incorporating modern tools and best practices to streamline development.",
+      "includedFeatures": "This template includes the following features:",
+      "feature1": "TypeScript for robust and scalable code.",
+      "feature2": "React Navigation for intuitive and flexible screen navigation.",
+      "feature3": "State Management with Redux Toolkit, Redux Saga, and Redux Persist to handle complex state logic and persistence.",
+      "feature4": "AsyncStorage for efficient local data storage.",
+      "feature5": "i18next for seamless internationalization support.",
+      "feature6": "React Native SVG for handling scalable vector graphics.",
+      "feature7": "Reanimated 3 and React Native Gesture Handler for powerful animations and gesture controls.",
+      "feature8": "Built-in support for splash screens, along with dark mode and light mode themes.",
+      "descriptionSummary": "This template is designed to be easy to customize and extend, allowing you to adapt it to meet the unique needs of your project."
+    }
+  }
+}
