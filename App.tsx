@@ -5,11 +5,11 @@ import {persistor, store} from './src/store/store';
 import {PersistGate} from 'redux-persist/integration/react';
 // conponents
 import AppNavigation from './src/navigation/AppNavigation';
+// import WebView from 'react-native-webview';
 // styles
 import SplashScreen from 'react-native-splash-screen';
 
 const App = () => {
-
   useEffect(() => {
     SplashScreen.hide();
   }, []);

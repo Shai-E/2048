@@ -2,9 +2,6 @@ import React from 'react';
 // navigation
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-// navigators
-import TabNavigation from '@navigation/TabNavigation';
-import MainNavigation from '@navigation/MainNavigation';
 // localization
 import {useTranslation} from 'react-i18next';
 import {TranslationKeys} from '@services/localization/keys';
@@ -12,6 +9,7 @@ import {TranslationKeys} from '@services/localization/keys';
 import {useColors} from '@hooks/useColors';
 // types
 import {RootStackParamList, ScreenNames} from '@appTypes/navigation';
+import Game2048 from '@src/screens/Game2048';
 
 const RootStack = createNativeStackNavigator<RootStackParamList>();
 
@@ -31,17 +29,8 @@ const AppNavigation = () => {
         }}>
         <RootStack.Screen
           name={ScreenNames.TABS}
-          component={TabNavigation}
+          component={Game2048}
           options={{title: t(TranslationKeys.tabs), headerShown: false}}
-        />
-        <RootStack.Screen
-          name={ScreenNames.MAIN}
-          component={MainNavigation}
-          options={{
-            title: t(TranslationKeys.main),
-            headerShown: true,
-            headerTitle: t(TranslationKeys.about),
-          }}
         />
       </RootStack.Navigator>
     </NavigationContainer>

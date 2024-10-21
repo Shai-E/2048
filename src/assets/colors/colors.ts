@@ -42,7 +42,7 @@ const Colors: ColorPalettes = {
     ...sharedColors,
   },
   light: {
-    primary: sharedColors.white,
+    primary: '#faf8ef',
     oppositeBg: '#0d1117',
     primaryText: '#0d1117',
     warning: '#ff0000',

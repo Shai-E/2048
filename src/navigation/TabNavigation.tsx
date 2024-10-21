@@ -2,7 +2,6 @@ import React from 'react';
 // navigation
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 // screens
-import WelcomeScreen from '@screens/WelcomeScreen';
 import FeaturesScreen from '@screens/FeaturesScreen';
 // localization
 import {useTranslation} from 'react-i18next';
@@ -15,6 +14,7 @@ import {defaultFont, defaultHeaderTitleAlign} from '@fixtures/defaults';
 // types
 import {ScreenNames, TabsParamList} from '@appTypes/navigation';
 import {ColorTheme} from '@assets/colors/colors';
+import Game2048 from '@src/screens/Game2048';
 
 const TabIcon = ({
   focused,
@@ -51,7 +51,7 @@ const TabNavigation = () => {
       }}>
       <Tab.Screen
         name={ScreenNames.WELCOME}
-        component={WelcomeScreen}
+        component={Game2048}
         options={{
           title: t(TranslationKeys.welcome),
           headerShown: false,
